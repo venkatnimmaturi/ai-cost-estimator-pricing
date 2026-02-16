@@ -1,0 +1,27 @@
+{
+  "last_updated": "2025-02-15",
+  "version": "1.0",
+  "providers": {
+    "claude": {
+      "name": "Claude Sonnet 4",
+      "input": 3.00,
+      "output": 15.00,
+      "imageTokens": 1600,
+      "source": "https://www.anthropic.com/pricing"
+    },
+    "gpt4": {
+      "name": "GPT-4o",
+      "input": 2.50,
+      "output": 10.00,
+      "imageTokens": 1360,
+      "source": "https://openai.com/api/pricing/"
+    },
+    "gemini": {
+      "name": "Gemini 1.5 Pro",
+      "input": 1.25,
+      "output": 5.00,
+      "imageTokens": 258,
+      "source": "https://ai.google.dev/pricing"
+    }
+  }
+}
